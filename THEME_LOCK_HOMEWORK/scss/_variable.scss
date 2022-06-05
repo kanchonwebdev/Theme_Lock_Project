@@ -1,0 +1,25 @@
+@mixin main-color {
+    color: #119ee6;
+}
+
+@mixin main-bg {
+    background: #119ee6;
+}
+
+@mixin secondary-color {
+    color:  #060606;
+}
+
+@mixin secondary-bg {
+    background: #060606;
+}
+
+@mixin main-title {
+    font-size: calc(25px + (36 - 25) / ((100vw - 320px) / (1920 - 320)));
+    @include secondary-color();
+}
+
+@mixin subtitle {
+    font-size: calc(14px + (16 - 14) / ((100vw - 320px) / (1920 - 320)));
+    color: #999999;
+}

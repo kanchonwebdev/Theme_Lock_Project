@@ -1,0 +1,17 @@
+#scroll-top {
+    position: fixed;
+    bottom: 0px;
+    right: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #644F9C;
+    width: calc(40px + (50 - 40) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(40px + (50 - 40) * ((100vw - 320px) / (1920 - 320)));
+    transition: .4s;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+#scroll-top.active {
+    opacity: 1;
+    bottom: calc(30px + (50 - 30) * ((100vw - 320px) / (1920 - 320)));
+    cursor: pointer;
+}
