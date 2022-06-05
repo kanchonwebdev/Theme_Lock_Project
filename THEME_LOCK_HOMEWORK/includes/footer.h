@@ -1,17 +1,17 @@
 <div class="footer">
     <div class="footer-block">
-        <div class="footer-header">
+        <div class="footer-header wow fadeInUp">
             <div class="nav-logo">
                 <img src="assets/images/footer-logo.png" alt="nav-logo">
             </div>
         </div>
 
         <div class="footer-content">
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, exercitationem facilis a
+            <p class="text wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, exercitationem facilis a
                 ipsam deleniti dolorem odio nemo odit error quae maiores eius excepturi quidem sapiente nulla suscipit
                 adipisci aspernatur distinctio?</p>
 
-            <a href="#" class="read-more-btn">
+            <a href="#" class="read-more-btn wow fadeInUp">
                 Learn More
                 <span class="icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@
                 </span>
             </a>
 
-            <div class="follow-block">
+            <div class="follow-block wow fadeInUp">
                 <p class="text">Follow Us</p>
                 <a href="#" target="_blank" class="icon-block">
                     <span class="icon">
@@ -161,12 +161,12 @@
     </div>
 
     <div class="footer-block">
-        <div class="footer-header">
+        <div class="footer-header wow fadeInUp">
             <h2>Useful Links</h2>
         </div>
 
         <div class="footer-content">
-            <ul class="nav-link-block">
+            <ul class="nav-link-block wow fadeInUp">
                 <li class="nav-link">
                     <a href="#">
                         <span class="icon">
@@ -396,11 +396,11 @@
     </div>
 
     <div class="footer-block">
-        <div class="footer-header">
+        <div class="footer-header wow fadeInUp">
             <h2>Services</h2>
         </div>
 
-        <div class="footer-content">
+        <div class="footer-content wow fadeInUp">
             <ul class="nav-link-block">
                 <li class="nav-link">
                     <a href="#">
@@ -631,20 +631,20 @@
     </div>
 
     <div class="footer-block">
-        <div class="footer-header">
+        <div class="footer-header wow fadeInUp">
             <h2>E-mail Newsletter</h2>
         </div>
 
         <div class="footer-content">
-            <p class="text">Subscribe to get Exclusive offer & updates in your E-mail</p>
+            <p class="text wow fadeInUp">Subscribe to get Exclusive offer & updates in your E-mail</p>
 
-            <form action="#" method="post" class="news-form">
+            <form action="#" method="post" class="news-form wow fadeInUp">
                 <input type="text" name="" placeholder="Your E-mail Address" id="" class="email-field">
                 <input type="submit" value="Subscribe" class="submit-btn">
             </form>
 
-            <p class="text">WE Accept : </p>
-            <div class="card-block">
+            <p class="text wow fadeInUp">WE Accept : </p>
+            <div class="card-block wow fadeInUp">
                 <img src="assets/images/visa.png" alt="visa" class="card">
                 <img src="assets/images/mastercard.png" alt="mastercard" class="card">
                 <img src="assets/images/discover.png" alt="discover" class="card">

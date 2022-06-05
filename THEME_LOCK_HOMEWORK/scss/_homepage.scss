@@ -552,6 +552,11 @@ ul {
                 grid-template-columns: repeat(2, 1fr);
             }
 
+            @include phone-480{
+                grid-template-columns: 1fr;
+                justify-content: center;
+            }
+
             .counter-block {
                 color: #fff;
 
@@ -630,6 +635,7 @@ ul {
 
                         @include max-width-1023 {
                             transform: translateX(-50%) translateY(-55px) !important;
+                            min-width: 100px;
                         }
                     }
 
